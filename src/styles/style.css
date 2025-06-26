@@ -1,0 +1,13 @@
+@import "tailwindcss";     
+
+:root {
+    --lt-purple: #6A00AD;
+    --dk-purple: #2C0047;
+    --gd-purple: 90deg, var(--lt-purple), var(--dk-purple);
+    --bg-purple: #1F0033;
+}
+
+.wd-hg-100 {
+    width: 100px;
+    height: 100px;
+}
