@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import "./styles/style.css" 
 import Home from './containers/Home/Home.jsx'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Home />

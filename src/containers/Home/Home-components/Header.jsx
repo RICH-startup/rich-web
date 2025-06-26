@@ -3,20 +3,25 @@ import "../../../styles/style.css"
 
 function Header() {
   return (
-    <header class="flex items-center">
-      <img src={logoBranca} class="wd-hg-100" />
-      <div class="pt-5 pb-5 pl-15 pr-15 bg-gradient bg-linear-(--gd-purple) text-white rounded-[30px] shadow-[0px_1px_4px_rgba(0,0,0,1)]">
-        <ul class="flex space-x-20">
-          <li class="hover:cursor-pointer">Home</li>
-          <li class="hover:cursor-pointer">Sobre nós</li>
-          <li class="hover:cursor-pointer">Cursos</li>
-          <li class="hover:cursor-pointer">Simulações</li>
-          <li class="hover:cursor-pointer">Suporte</li>
+    <header class="flex items-center text-white justify-around border-b-2">
+      <img src={logoBranca} class="wd-hg-150" />
+      <div class="pt-5 pb-5 pl-15 pr-15 bg-gradient bg-linear-(--gd-purple) text-white rounded-[30px] shadow-[0px_4px_4px_rgba(0,0,0,0.31)]">
+        <ul class="flex items-center space-x-15">  
+          <li class="nav">Home</li>
+          <li class="nav">Sobre nós</li>
+          <li class="nav">Cursos</li>
+          <li class="nav">Simulações</li>
+          <li class="nav">Suporte</li>
         </ul>
       </div>
-      <button>
-        
-      </button>
+      <div class="flex space-x-25 items-center">
+        <a href="#">
+          <span>Login</span>
+        </a>
+        <a href="#" class="pt-3 pb-3 pl-10 pr-10 bg-gradient bg-linear-(--gd-purple) text-white rounded-[30px] shadow-[0px_4px_4px_rgba(0,0,0,0.31)]">
+          <span>Cadastro</span>
+        </a>
+      </div>  
     </header>
   );
 }
