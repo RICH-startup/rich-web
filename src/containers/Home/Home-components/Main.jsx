@@ -12,7 +12,7 @@ function Main() {
                 <span class="pt-1 pb-1 pl-3 pr-3 bg-(--transparent-purple) rounded-[5px] text-[20]">Para mais informações, clique no botão abaixo</span>
                 <button class="flex items-center bg-white text-black font-bold pt-3 pb-3 pl-5 pr-5 space-x-7 rounded-[10px] mt-6">
                     <p>Sobre Nós</p> 
-                    <img src={arrowDown} alt="" class="h-[10px]"/>
+                    <img src={arrowDown} alt="" class="h-[20px]"/>
                 </button>
             </div>
             <img src={moneyIncome} alt="" />
