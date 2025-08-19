@@ -1,8 +1,8 @@
-import '../../styles/style.css'
+import LoginLayout from "./LoginLayout"
 
 function Login() {
   return (
-    <div>Login</div>
+    <LoginLayout/>
   )
 }
 

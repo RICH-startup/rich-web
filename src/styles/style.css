@@ -11,11 +11,10 @@
 }
 
 @layer utilities {
-
+        
     .wd-hg-100 {
         @apply w-[100px] h-[100px]
     }
-
     .nav {
         @apply relative justify-around 
     }
@@ -23,7 +22,7 @@
         @apply cursor-pointer 
     }
     .nav::after {
-        @apply content-[''] bg-(--bg-purple) h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300 absolute shadow-[0px_-10px_10px_rgba(0,0,0,1)] 
+        @apply content-[''] bg-(--bg-purple) h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300 absolute text-(--lt-yellow)
     }
     .nav:hover::after {
         @apply w-[100%] 
