@@ -22,7 +22,6 @@
         @apply cursor-pointer text-[rgba(255,217,0)] duration-300
     }
     .nav::after {
-        @apply content-[''] bg-(--bg-purple) h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300 absolute text-(--lt-yellow)
         @apply content-[''] bg-(--bg-purple) h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute 
     }
     .nav:hover::after {

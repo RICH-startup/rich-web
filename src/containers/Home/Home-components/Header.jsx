@@ -9,11 +9,6 @@ function Header() {
       <div class="pt-5 pb-5 pl-15 pr-15 bg-gradient text-white">
         <ul class="flex items-center space-x-15">  
           <a href="#idHome" class="nav">Home</a>
-    <header id="idHeader" class="flex items-center text-white justify-around border-b-2 fixed top-0 left-0 w-full z-50">
-      <img src={logoBranca} class="wd-hg-100" />
-      <div class="pt-5 pb-5 pl-15 pr-15 bg-gradient text-white">
-        <ul class="flex items-center space-x-15">  
-          <a href="#idHeader" class="nav">Home</a>
           <a href="#idSobreNos" class="nav">Sobre nós</a>
           <a href="#idCursos" class="nav">Cursos</a>
           <a href="#idSimulacoes" class="nav">Simulações</a>
