@@ -1,8 +1,8 @@
-import '../../styles/style.css'
+import RegisterLayout from './RegisterLayout'
 
 function Register() {
   return (
-    <div>Register</div>
+    <RegisterLayout/>
   )
 }
 
